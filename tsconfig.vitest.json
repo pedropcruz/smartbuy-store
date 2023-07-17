@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "exclude": ["dist", "node_modules"],
+  "compilerOptions": {
+    "composite": true,
+    "lib": [],
+    "types": ["jest", "node", "jsdom", "vite/client"],
+    "include": ["**/*.spec.ts"]
+  }
+}
